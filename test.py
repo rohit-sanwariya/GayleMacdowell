@@ -1,4 +1,4 @@
-str = "abcdEfgH"
+str = "abcdEfgH".__contains__("bc")
 mat = [
         [1,2,3],
         [4,5,6],
@@ -6,5 +6,5 @@ mat = [
         ]
 mat = 0
 print(mat)
-str.lower()
+
 print(str)

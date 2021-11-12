@@ -16,7 +16,9 @@ public class LinkedListJava {
         current.next = new Node(data);
         }
 
-        //prepend
+        /**
+         * prepend
+         */
         public void prepend(int data){
         if(head == null){
             Node head = new Node(data);

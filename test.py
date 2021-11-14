@@ -1,10 +1,9 @@
-str = "abcdEfgH".__contains__("bc")
-mat = [
-        [1,2,3],
-        [4,5,6],
-        [7,0,9]
-        ]
-mat = 0
-print(mat)
+def get_hash(str):
+        salt = 0
+        for x in str:
+                salt += ord(x)
+        return salt//100
 
-print(str)
+arr = [0] * 100
+arr[get_hash("rohit")] = "rohit"
+print(arr[get_hash("rohit")])
